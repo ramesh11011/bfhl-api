@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "functions": { "api/bfhl.js": { "runtime": "nodejs18.x" } },
+  "routes": [{ "src": "/bfhl", "dest": "/api/bfhl.js" }]
+}
